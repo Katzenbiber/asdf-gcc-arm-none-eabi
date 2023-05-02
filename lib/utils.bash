@@ -28,6 +28,7 @@ declare -A windows_versions=(
 
 # shellcheck disable=SC2034
 declare -A linux_x86_64_versions=(
+  ["6-2017-q2"]="https://developer.arm.com/-/media/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-linux.tar.bz2"
   ["A-10.3-2020.11"]="https://developer.arm.com/-/media/Files/downloads/gnu-a/10.2-2020.11/binrel/gcc-arm-10.2-2020.11-x86_64-arm-none-eabi.tar.xz"
   ["A-10.3-2021.07"]="https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi.tar.xz"
   ["RM-10-2020-q4-major"]="https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2"
